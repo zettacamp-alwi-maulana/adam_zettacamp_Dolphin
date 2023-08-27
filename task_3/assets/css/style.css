@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+  display: flex;
+  width: 100%;
+
+}
+
+
+.card {
+  border: 3px solid;
+  box-shadow: 3px 5px 10px 2px grey;
+  border-radius: 10px;
+  background-color: white;
+  width: 20vw;
+  margin: 0 20px;
+  text-align: center;
+  height: 500px;
+}
+
+.card > .card-header {
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > .card-header > img {
+  height: 12vw;
+}
+
+.card > .card-body {
+  padding: 15px 35px;
+}
+
+.card > .card-body > p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+
+.card > .card-body > p::first-line {
+  color: mediumseagreen;
+  font-variant: small-caps;
+}
+
+.card > .card-footer {
+  margin: 15px;
+  border-radius: 10%;
+}
+
+.btn {
+  padding: 10px 5px;
+  background-color: lightblue;
+  border-radius: 5px;
+  color: greenyellow;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 80%;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  color: #83bd75;
+}
+
+footer {
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.container > a {
+  padding: 1rem;
+}
+
+
+.mtop-2{
+  margin: 5rem 0;
+}
+
+.mbottom-2{
+  margin: 5rem 0;
+}
+
+.m-1rem{
+  margin: 1rem 0;
+}
+
+
+.justify-center{
+  justify-content: center;
+}
+
+.sticky{
+  font-size: 25px;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  background-color: white;
+}

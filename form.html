@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manga Enjoyer Registration</title>
+    <style>
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 50px;
+        border: 1px solid grey;
+        border-radius: 5px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Manga Club Registration</h1>
+    <form>
+      <form>
+        <label>First Name:</label>
+        <input required type="text" name="first_name" pattern="[A-Za-z]+" placeholder="Alwi" />
+      
+        <label>Last Name:</label>
+        <input required type="text" name="last_name" pattern="[A-Za-z]+" placeholder="Adam" />
+      
+        <label>Bio:</label>
+        <textarea style="width: 100%" rows="4" name="bio" placeholder="Explain about yourself"></textarea>
+      
+        <label>Gender:</label>
+        <input required type="radio" name="gender" value="male" /> <label>Male</label>
+        <input required type="radio" name="gender" value="female" /> <label>Female</label>
+      
+        <label>Email:</label>
+        <input type="email" name="email" required placeholder="you@example.com" />
+      
+        <label>Telephone:</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678" />
+      
+        <label>Age:</label>
+        <input type="number" name="age" pattern="[0-9]+" required placeholder="25" />
+      
+        <label>Website or Social Media:</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" required />
+      
+        <label>Favorite Genre:</label>
+        <input type="text" name="favorite_genre" pattern="[A-Za-z]+" required placeholder="e.g., Science Fiction" />
+      
+        <input type="submit" value="Register" />
+      </form>
+      
+    </form>
+  </body>
+</html>

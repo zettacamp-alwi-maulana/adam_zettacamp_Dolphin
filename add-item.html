@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Task CSS_Add-Item</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">
+        <a href="./index.html"><img style="height: 50px" src="./assets/img/l.webp" /></a>
+        </div>
+        <div class="right">
+        <a style="padding-top: 25px" href="./shopping-list.html">Shopping List</a>
+        <a style="padding-top: 25px" href="./about-me.html">About</a>
+        <a style="padding-top: 25px" href="./contact-me.html">Contact</a>
+      </div>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper content-1">
+        <section class="card upper p-10px">
+          <div class="backhome">
+            <a href="./shopping-list.html">&larr;Shopping List</a>
+          </div>
+          <br /><br />
+          <h1 style="text-align: left">Add New Item</h1>
+        </section>
+        <section class="card upper">
+          <a class="frezze" href="./add-item.html"><button>&#43;Submit</button></a>
+        </section>
+      </div>
+      <div class="wrapper content-1">
+        <section class="card upper" style="text-align: left">
+          <label for="fname">Product Name:</label><br />
+          <input type="text" id="fname" name="fname" style="width: 100%" placeholder="Enter the Product Name..." /><br /><br />
+          <label for="fname">Price:</label><br />
+          <input type="text" id="fname" name="fname" style="width: 100%" placeholder="Enter the Product Price..." /><br /><br />
+        </section>
+        <section class="card upper" style="border: 2px dotted">
+          <input type="file" id="file" hidden />
+          <label class="form__file" for="file">
+            <div>&#43;Upload Product Image</div>
+          </label>
+        </section>
+      </div>
+      <h1 style="text-align: center; margin-top: 40px">Preview Product</h1>
+      
+      <div class="wrapper">
+        <section class="card shop">
+          <div class="card-header p-5px">
+            <img
+              src="./assets/img/p1.webp"
+            />
+          </div>
+          <div class="card-body p-5px">
+            <h1>Green Shadow</h1>
+            <p style="text-align: justify">Triumph over your adversaries with the might of this formidable hero.</p>
+          </div>
+          <div class="card-footer p-10px">
+            <article class="footer-left">
+              <p><sub>25%</sub></p>
+            </article>
+            <article class="footer-right">
+              <p style="text-decoration: line-through">Rp 200.000</p>
+              <p>Rp 150.000</p>
+            </article>
+          </div>
+        </section>
+
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+
+        <p>&copy; 2023 PopCap. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

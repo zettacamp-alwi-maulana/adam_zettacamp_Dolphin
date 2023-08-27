@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Task CSS_Contact-Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .formulir {
+        border: 3px solid;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      form {
+        padding: 20px;
+      }
+
+      .gender {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="left">
+          <a href="./index.html"><img style="height: 50px" src="./assets/img/l.webp" /></a>
+        </div>
+        <div class="right">
+          <a style="padding-top: 25px" href="./shopping-list.html">Shopping List</a>
+          <a style="padding-top: 25px" href="./about-me.html">About</a>
+          <a style="padding-top: 25px" href="./contact-me.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 style="text-align: center">CONTACT US</h1>
+      <p>Your thoughts are valuable to us. Help us flourish through your constructive feedback and insightful suggestions.</p> <br>
+
+      <section class="cards">
+              <h2><b>CUSTOMER CARE</b></h2>
+          <p><b>Phone number</b> (+01)-424-2562</p>
+          <p><b>Email us :</b> cspvzheroes@popcap.com</p>
+          <br>
+          </section>
+
+      <div class="cards" style="border: 1px solid">
+        <label for="fname">Name:</label><br />
+        <input type="text" id="fname" name="fname" style="width: 100%" placeholder="Please enter Your Name" /><br /><br />
+        <label for="fname">Email</label><br />
+        <input type="text" id="fname" name="fname" style="width: 100%" placeholder="Please enter Email..." /><br /><br />
+        <label for="fname">Message</label><br />
+        <textarea rows="4" cols="50" name="comment" form="usrform">Tell Us about Your Problem</textarea>
+        <input type="submit" value="Submit" />
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2023 PopCap. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

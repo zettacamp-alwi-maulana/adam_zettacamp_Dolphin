@@ -1,0 +1,35 @@
+/* Style the fitness container */
+.fitness-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the header in fitness component */
+.fitness-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style the fitness data section */
+.fitness-data {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the header in fitness data section */
+.fitness-data h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Style the JSON data */
+.fitness-data p {
+  font-size: 16px;
+  color: #777;
+}
